@@ -20,17 +20,22 @@ Short Window = 50 Days & Long Window = 100 Days
 SVC Classifier
 
 **Classification Report:**
+
 ![Classification Report ](/Baseline Performance/SMA50SMA100_classification_report.png)
 
 **Cumulative Return Plot: Actual Returns vs. Strategy Returns**
-![Cumulative Return Plot](/Baseline Performance/svm_Model.PNG)
+
+![Cumulative Return Plot](/Baseline Performance/svm_Model.png)
+
 **Model:**
 SVC Classifier
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](/Baseline Performance/LRSMA50SMA100_classification_report.png)
 
 **Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
-![LR Cumulative Return Plot ](/Baseline Performance/logistic_regression_Model.PNG)
+
+![LR Cumulative Return Plot ](/Baseline Performance/logistic_regression_Model.png)
 
 **Model 2:PERFORMANCE SUMMARY:**
 
@@ -43,18 +48,19 @@ Short Window = 8 Days & Long Window = 50 Days
 LogisticRegression
 
 **Classification Report:**
+
 ![Classification Report](/Tuned Model/Sma8_Sma50classification report.png)
 
 
 **Cumulative Return Plot: Actual Returns vs. Strategy Returns**
-![Cumulative Return Plot](/Tuned Model/svm_ModelSMA8_SMA50.PNG)
+![Cumulative Return Plot](/Tuned Model/svm_ModelSMA8_SMA50.png)
 **Model:**
 LogisticRegression
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](/Tuned Model/lrModel_Sma8_Sma50_classification report.png)
 
-**Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
-![LR Cumulative Return Plot ](/Tuned Model/logistic_regression_ModelSMA8_SMA50.PNG)
+**Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategp)
 
 
 **Model 3:  PERFORMANCE SUMMARY:**
@@ -75,16 +81,18 @@ SVC Classifier
 **Cumulative Return Plot: Actual Returns vs. Strategy Returns**
 
 
-![[Cumulative Return Plot]](/Tuned Model/svm_ModeSMA100SMA200l.PNG)
+![Cumulative Return Plot](/Tuned Model/svm_ModeSMA100SMA200l.png)
 
 **Model:**
 LogisticRegression
 
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](/Tuned Model/SMA100SMA200 classification_report.png)
 
 **Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
-![LR Cumulative Return Plot ](/logistic_regression_Model.SMA100SMA200.PNG)
+
+![LR Cumulative Return Plot ](/logistic_regression_Model.SMA100SMA200.png)
 
 **Results:**
 In conclusion,Classification Reports & Cumulative Returns Graphs of the second model with input parameters of short window = 8 and long window = 50 showing the best results. Both SVC Classifier and LogisticRegression Model showing decent improvment in return curve and accuracy score respectively. Based on information provided above, I can say that, decreasing SMA short and long window can improve algorithm trading model performance. 
