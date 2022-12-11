@@ -20,16 +20,21 @@ Short Window = 50 Days & Long Window = 100 Days
 SVC Classifier
 
 **Classification Report:**
+
 ![Classification Report ](Baseline Performance/SMA50SMA100_classification_report.png)
 
 **Cumulative Return Plot: Actual Returns vs. Strategy Returns**
+
 ![Cumulative Return Plot](Baseline Performance/svm_Model.PNG)
+
 **Model:**
 SVC Classifier
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](Baseline Performance/LRSMA50SMA100_classification_report.png)
 
 **Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
+
 ![LR Cumulative Return Plot ](Baseline Performance/logistic_regression_Model.PNG)
 
 **Model 2:PERFORMANCE SUMMARY:**
@@ -43,6 +48,7 @@ Short Window = 8 Days & Long Window = 50 Days
 LogisticRegression
 
 **Classification Report:**
+
 ![Classification Report](Tuned Model/Sma8_Sma50classification report.png)
 
 
@@ -51,9 +57,11 @@ LogisticRegression
 **Model:**
 LogisticRegression
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](Tuned Model/lrModel_Sma8_Sma50_classification report.png)
 
 **Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
+
 ![LR Cumulative Return Plot ](Tuned Model/logistic_regression_ModelSMA8_SMA50.PNG)
 
 
@@ -81,9 +89,11 @@ SVC Classifier
 LogisticRegression
 
 **Logistic Regression Model Classification Report:**
+
 ![LR Classification Report ](Tuned Model/SMA100SMA200 classification_report.png)
 
 **Logistic Regression Model Cumulative Return Plot: Actual Returns vs. Strategy Returns**
+
 ![LR Cumulative Return Plot ](logistic_regression_Model.SMA100SMA200.PNG)
 
 **Results:**
